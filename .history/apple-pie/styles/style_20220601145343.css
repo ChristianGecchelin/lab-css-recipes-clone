@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  object-fit: cover;
+}
+header h1 {
+  position: absolute;
+  color: white;
+  font-size: 4rem;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0px;
+}
+.introduction p {
+  width: 70%;
+  font-size: 2rem;
+  text-align: left;
+  line-height: 2.7rem;
+}
+.introduction ul {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: center;
+  font-size: 1.6rem;
+}

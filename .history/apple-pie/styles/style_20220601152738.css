@@ -48,8 +48,7 @@ header h1 {
   border: 1px solid black;
   background-color: black;
 }
-.ingredients,
-.direction {
+.ingredients {
   gap: 30px;
 }
 .ingredients h3,
@@ -76,7 +75,6 @@ header h1 {
   line-height: 2.4rem;
 }
 .direction ol {
-  width: calc(68% + 3px);
   list-style: decimal;
 }
 .direction ol li::marker {
